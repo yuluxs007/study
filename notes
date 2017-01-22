@@ -1,0 +1,1 @@
+删除名字为none的镜像：sudo docker images|grep "<none>" |awk '{print $3}'| xargs -i sudo docker rmi {}
